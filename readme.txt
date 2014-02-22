@@ -99,7 +99,7 @@ An answer to that question.
 
 == Changelog ==
 
-= 1.5.2
+= 1.5.2 =
 * This is a quick-fix release to make the button work again. It will be updated shortly with
 all new features of the Facebook Like API and other reported bugs.
 * Fixed an issue where Facebook has changed the button naming, causing the button not to work.
