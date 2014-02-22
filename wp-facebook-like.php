@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Facebook Like
-Version: 1.5.1
+Version: 1.5.2
 Description: WP Facebook Like makes it easy to integrate the Facebook Like button. Choose to automatically append the button before or after the content, use a shortcode, or use a template tag to place the button where ever you want.
 Author: Johnny Chadda
 Plugin URI: http://johnny.chadda.se/projects/wp-facebook-like/
