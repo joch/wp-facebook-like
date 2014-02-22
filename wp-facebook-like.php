@@ -39,7 +39,7 @@ class WPFBLike
 		//load_plugin_textdomain('wpfblike', dirname(__FILE__));
 		
 		// Get stored values or set defaults
-		$this->layout = get_option('wpfblike_layout', 'default');
+		$this->layout = get_option('wpfblike_layout', 'standard');
 		$this->show_faces = get_option('wpfblike_show_faces', 'true');
 		$this->colorscheme = get_option('wpfblike_colorscheme', 'light');
 		$this->width = get_option('wpfblike_width', '400');
@@ -243,6 +243,12 @@ class WPFBLike
 		elseif ($this->height != '')
 		{
 			$style = "style='height: {$this->height}px;'";
+		}
+
+		// Fix for Facebook changing the layout parameter value
+		if ($layout == "default")
+		{
+			$layout = "standard";
 		}
 		
 		$fbtn  = '';

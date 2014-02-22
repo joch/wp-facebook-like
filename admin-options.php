@@ -8,8 +8,8 @@
 				<th scope="row"><?php _e('Layout', 'wpfblike');?></th>
 				<td>
 					<select name="wpfblike_layout" style="width:150px;">
-						<option value="default" <?php echo wpfblikeisselected('default', get_option('wpfblike_layout', 'default')); ?>><?php _e('Default', 'wpfblike');?></option>
-						<option value="button_count" <?php echo wpfblikeisselected('button_count', get_option('wpfblike_layout', 'default')); ?>><?php _e('Button Count', 'wpfblike');?></option>
+						<option value="standard" <?php echo wpfblikeisselected('standard', get_option('wpfblike_layout', 'standard')); ?>><?php _e('Standard', 'wpfblike');?></option>
+						<option value="button_count" <?php echo wpfblikeisselected('button_count', get_option('wpfblike_layout', 'standard')); ?>><?php _e('Button Count', 'wpfblike');?></option>
 					</select>
 				</td>
 				<td>
