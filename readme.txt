@@ -3,8 +3,8 @@ Contributors: joch
 Donate link: http://johnny.chadda.se/donate/
 Tags: widget, social, facebook, like, send
 Requires at least: 2.9
-Tested up to: 3.1.2
-Stable tag: 1.5.1
+Tested up to: 3.8.1
+Stable tag: 1.5.2
 
 WP Facebook Like makes it easy to integrate the Facebook Like and Send buttons.
 
@@ -98,6 +98,11 @@ An answer to that question.
 
 
 == Changelog ==
+
+= 1.5.2
+* This is a quick-fix release to make the button work again. It will be updated shortly with
+all new features of the Facebook Like API and other reported bugs.
+* Fixed an issue where Facebook has changed the button naming, causing the button not to work.
 
 = 1.5.1 =
 * Added support for disabling the button on specific posts and pages. Create a custom field 
