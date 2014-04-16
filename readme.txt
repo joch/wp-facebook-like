@@ -3,7 +3,7 @@ Contributors: joch
 Donate link: http://johnny.chadda.se/donate/
 Tags: widget, social, facebook, like, send
 Requires at least: 2.9
-Tested up to: 3.8.1
+Tested up to: 3.9
 Stable tag: 1.5.2
 
 WP Facebook Like makes it easy to integrate the Facebook Like and Send buttons.
